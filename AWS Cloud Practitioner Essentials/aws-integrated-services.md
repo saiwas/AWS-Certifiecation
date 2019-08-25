@@ -60,6 +60,22 @@
         ![load-balancer](./asserts/auto-scaling-2.png)
 
   1. Amazon Route 53
+      + What Is Route 53
+        ![load-balancer](./asserts/route-53-1.png)
+        > Route 53 is a Domain Name System or DNS which is a service designed to provide businesses and developers a reliable and highly scalable way to route users to endpoints.
+
+      + How Does It Work
+        ![load-balancer](./asserts/route-53-2.png)
+        ![load-balancer](./asserts/route-53-3.png)
+
+      + DNS Resolution Strategies
+        + Simple routing
+        + Geo-location
+        + Failover
+        + Weighted round robin
+        + Latency-based
+        + Multiple-value answer
+
   1. Amazon Relation Database Services(RDS)
   1. AWS lambda
   1. AWS Elastic Beanstalk
