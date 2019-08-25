@@ -14,3 +14,6 @@
     1. AWS Global Infrastructure
     1. Amazon Virtual Private Cloud(VPC)
     1. Security Groups
+
+## AWS Integrated Services
+    + Application Load Balancer
