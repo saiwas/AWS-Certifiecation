@@ -122,7 +122,30 @@
         + Easy to administer
         + Available and durable
         + Secure and compliant
+
   1. AWS lambda
+      > AWS Lambda is a compute service that lets you run code without provisioning or managing servers. It only executes your code when needed and scales automatically to thousand of requests per second
+
+      + Use Cases
+        + Automated back-ups
+        + Processing objects uploads to S3
+        + Event-driven log analysis
+        + Event-driven transformations
+        + Internet of things
+        + Operating serverless websites
+
+      + Real Time Image Processing
+        ![Lambda](./asserts/lambda-1.png)
+      + Real Time Stream Processing
+        ![Lambda](./asserts/lambda-2.png)
+      + Extra, Transform, Load
+        ![Lambda](./asserts/lambda-3.png)
+      + IoT Backends
+        ![Lambda](./asserts/lambda-4.png)
+      + Mobile Backends
+        ![Lambda](./asserts/lambda-5.png)
+      + Web Backends
+        ![Lambda](./asserts/lambda-6.png)
   1. AWS Elastic Beanstalk
   1. Amazon Simple Notification Service(SNS)
   1. Amazon CloudWatch
