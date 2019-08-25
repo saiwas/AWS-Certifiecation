@@ -37,7 +37,7 @@
           ![load-balancer](./asserts/load-balancer-2.png)
 
   1. Auto Scaling
-      > Auto Scaling helps you ensure that you have the correct number of Amazon EC2 instances available to handle the load for your application ![load-balancer](./asserts/auto-scaling-1.png)
+      > Auto Scaling helps you ensure that you have the correct number of Amazon EC2 instances available to handle the load for your application ![auto-scaling](./asserts/auto-scaling-1.png)
 
       + Auto Scaling Components
         1. Launch Configuration (What to be run)
@@ -57,16 +57,16 @@
             + Scale-out policy
             + Scale-in policy
       + Dynamic Auto Scaling
-        ![load-balancer](./asserts/auto-scaling-2.png)
+        ![auto-scaling](./asserts/auto-scaling-2.png)
 
   1. Amazon Route 53
       + What Is Route 53
-        ![load-balancer](./asserts/route-53-1.png)
+        ![route-53](./asserts/route-53-1.png)
         > Route 53 is a Domain Name System or DNS which is a service designed to provide businesses and developers a reliable and highly scalable way to route users to endpoints.
 
       + How Does It Work
-        ![load-balancer](./asserts/route-53-2.png)
-        ![load-balancer](./asserts/route-53-3.png)
+        ![route-53](./asserts/route-53-2.png)
+        ![route-53](./asserts/route-53-3.png)
 
       + DNS Resolution Strategies
         + Simple routing
@@ -77,6 +77,51 @@
         + Multiple-value answer
 
   1. Amazon Relation Database Services(RDS)
+      ![RDS](./asserts/rds-1.png)
+      + Challenges of Relational Database
+          + Server maintenance and energy footprint
+          + Software install and patches
+          + Database backups and high availability
+          + Limits on scalability
+          + Data security
+          + OS install and patches
+
+      + Database Instances
+        ![RDS](./asserts/rds-2.png)
+
+      + RDS in your VPC
+        ![RDS](./asserts/rds-3.png)
+
+      + High Availability with multiple AZ
+        ![RDS](./asserts/rds-4.png)
+        ![RDS](./asserts/rds-5.png)
+
+      + RDS Read Replicas
+        + Asynchronous replication method used
+        + Offload read queries from the master DB instance
+        + Ideal for read-heavy database workloads
+        + Read replica can be promoted to Master if needed
+        ![RDS](./asserts/rds-6.png)
+
+      + Use Cases
+        + Web and Mobile Applications
+            + High throughput
+            + Massive storage scalability
+            + High availability
+        + E-commerce Applications
+            + Low-cost database
+            + Data security
+            + Fully managed solution
+        + Mobile and Online Games
+            + Rapidly grow capacity
+            + Automatic scaling
+            + Database monitoring
+      + Benefits
+        + Highly scalable
+        + Hight performance
+        + Easy to administer
+        + Available and durable
+        + Secure and compliant
   1. AWS lambda
   1. AWS Elastic Beanstalk
   1. Amazon Simple Notification Service(SNS)
