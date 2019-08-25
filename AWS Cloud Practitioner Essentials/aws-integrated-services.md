@@ -147,6 +147,31 @@
       + Web Backends
         ![Lambda](./asserts/lambda-6.png)
   1. AWS Elastic Beanstalk
+      + What is Elastic Beanstalk
+          1. Platform as a Service
+          1. Allows quick deployment of your applications
+          1. Reduces management complexity
+          1. Keeps control in your hands(Choose your instance type, database, set and adjust auto scaling)
+          1. Supports a large range of platforms
+              + Packer Builder
+              + Single Container, Multiple Container or Pre-configured Docker
+              + GO
+              + Java SE
+              + Java with Tomcat
+              + .Net on windows server with IIS
+              + Nodejs
+              + PHP
+              + Python
+              + Ruby
+      + Components
+        + Application Service
+        + HTTP Service
+        + Operating systems
+        + Language interpreter
+        + Host
+
+      + Deployments and Updates
+        ![elastic-beanstalk](./asserts/elastic-beanstalk-1.png)
   1. Amazon Simple Notification Service(SNS)
   1. Amazon CloudWatch
   1. Amazon CloudFront
