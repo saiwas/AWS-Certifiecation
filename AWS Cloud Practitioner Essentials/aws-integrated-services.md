@@ -173,6 +173,15 @@
       + Deployments and Updates
         ![elastic-beanstalk](./asserts/elastic-beanstalk-1.png)
   1. Amazon Simple Notification Service(SNS)
+        1. Flexible, fully managed pub/sub messaging and mobile communications service.
+
+        1. Coordinates the delivery of messages to subscribing endpoints and clients.
+
+        1. Easy to setup, operate and send reliable communications.
+
+        1. Decouple and scale micro-services, distributed systems and serverless applications
+
+        ![SNS](./asserts/sns-1.png)
   1. Amazon CloudWatch
   1. Amazon CloudFront
   1. AWS CloudFormation
