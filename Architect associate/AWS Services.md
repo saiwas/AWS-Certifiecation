@@ -1,4 +1,4 @@
-# AWS Certified Solutions Architect
+# AWS Services
 
 ## AWS Compute Services
 
