@@ -183,5 +183,20 @@
 
         ![SNS](./asserts/sns-1.png)
   1. Amazon CloudWatch
+        > Amazon CloudWatch monitors your Amazon Web Services(AWS) resources and the applications you run on AWS in real time
+        + Features
+          ![could-watch](./asserts/could-watch-1.png)
+        + Architecture
+          ![could-watch](./asserts/could-watch-2.png)
+        + Use Cases
+          + Respond to state changes in your AWS resources
+          + Automatically invoke an AWS Lambda function to update DNS entries when an event notifies that Amazon EC2 instance enters the Running state
+          + Direct specify API records from CloudTrail to Kinesis stream for detail analysis of potential security or availability risks.
+          + Take a snapshot of an Amazon EBS volume on a schedule.
+          + Log S3 Object Level Operation Using CloudWatch Events.
+        + Actions & Alter
+          ![could-watch](./asserts/could-watch-3.png)
+        + Logs
+          ![could-watch](./asserts/could-watch-4.png)
   1. Amazon CloudFront
   1. AWS CloudFormation
