@@ -146,6 +146,7 @@
         ![Lambda](./asserts/lambda-5.png)
       + Web Backends
         ![Lambda](./asserts/lambda-6.png)
+
   1. AWS Elastic Beanstalk
       + What is Elastic Beanstalk
           1. Platform as a Service
@@ -172,6 +173,7 @@
 
       + Deployments and Updates
         ![elastic-beanstalk](./asserts/elastic-beanstalk-1.png)
+
   1. Amazon Simple Notification Service(SNS)
         1. Flexible, fully managed pub/sub messaging and mobile communications service.
 
@@ -182,6 +184,7 @@
         1. Decouple and scale micro-services, distributed systems and serverless applications
 
         ![SNS](./asserts/sns-1.png)
+
   1. Amazon CloudWatch
         > Amazon CloudWatch monitors your Amazon Web Services(AWS) resources and the applications you run on AWS in real time
         + Features
@@ -229,4 +232,3 @@
       ![cloud-watch](./asserts/cloud-formation-1.png)
       ![cloud-watch](./asserts/cloud-formation-2.png)
       ![cloud-watch](./asserts/cloud-formation-3.png)
-

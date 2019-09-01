@@ -16,4 +16,14 @@
     1. Security Groups
 
 ## AWS Integrated Services
+
     + Application Load Balancer
+    + Auto Scaling
+    + Amazon Route 53
+    + Amazon Relation Database Services(RDS)
+    + AWS lambda
+    + AWS Elastic Beanstalk
+    + Amazon Simple Notification Service(SNS)
+    + Amazon CloudWatch
+    + Amazon CloudFront
+    + Amazon CloudFormation
