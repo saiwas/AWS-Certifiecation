@@ -185,9 +185,9 @@
   1. Amazon CloudWatch
         > Amazon CloudWatch monitors your Amazon Web Services(AWS) resources and the applications you run on AWS in real time
         + Features
-          ![could-watch](./asserts/could-watch-1.png)
+          ![cloud-watch](./asserts/cloud-watch-1.png)
         + Architecture
-          ![could-watch](./asserts/could-watch-2.png)
+          ![cloud-watch](./asserts/cloud-watch-2.png)
         + Use Cases
           + Respond to state changes in your AWS resources
           + Automatically invoke an AWS Lambda function to update DNS entries when an event notifies that Amazon EC2 instance enters the Running state
@@ -195,9 +195,9 @@
           + Take a snapshot of an Amazon EBS volume on a schedule.
           + Log S3 Object Level Operation Using CloudWatch Events.
         + Actions & Alter
-          ![could-watch](./asserts/could-watch-3.png)
+          ![cloud-watch](./asserts/cloud-watch-3.png)
         + Logs
-          ![could-watch](./asserts/could-watch-4.png)
+          ![cloud-watch](./asserts/cloud-watch-4.png)
 
   1. Amazon CloudFront
         + Overview
@@ -217,3 +217,16 @@
           1. Software Distribution
 
   1. AWS CloudFormation
+      > AWS CloudFormation simplifies the task of repeatedly and predictably creating groups of related resources that power your application
+
+      + What CloudFormation do?
+        1. Fully-managed service
+        1. Create, update and delete resources in the stacks
+
+      + Requirements
+        ![cloud-watch](./asserts/cloud-formation-4.png)
+
+      ![cloud-watch](./asserts/cloud-formation-1.png)
+      ![cloud-watch](./asserts/cloud-formation-2.png)
+      ![cloud-watch](./asserts/cloud-formation-3.png)
+
